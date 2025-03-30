@@ -18,6 +18,9 @@ int main() {
 	    case 2:
             printf("You have selected AIML\n");
             break;
+	    case 3:
+            printf("You have selected ECE\n");
+            break;
 	    }
     return 0;
 }
