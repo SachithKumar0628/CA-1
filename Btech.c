@@ -1,22 +1,33 @@
 #include <stdio.h>
 
 int main() {
-    int choice;
+    int courseChoice;
 
-    printf("Select an option:\n");
-    printf("1. B.Tech (CSE)\n");
-    printf("2. B.Tech (AIML)\n");
-    printf("3. B.Tech (ECE)\n");
-    printf("4. B.Tech (Mechanical)\n");
-    printf("Enter your choice (1-4): ");
-    scanf("%d", &choice);
+    printf("Choose a course:\n");
+    printf("1. B.tech (CSE)\n");
+    printf("2. B.tech (AIML)\n");
+    printf("3. B.tech (ECE)\n");
+    printf("4. B.tech (Mechanical)\n");
+    printf("Enter the number corresponding to your choice: ");
+    scanf("%d", &courseChoice);
 
-    switch (choice) {
-	    case 1:
-            printf("Hello, World!\n");
+    switch (courseChoice) {
+        case 1:
+            printf("You selected CSE.\n");
             break;
-	    }
+        case 2:
+            printf("You selected AIML.\n");
+            break;
+        case 3:
+            printf("You selected ECE.\n");
+            break;
+        case 4:
+            printf("You selected Mechanical.\n");
+            break;
+        default:
+            printf("Invalid choice. Please select a number between 1 and 4.\n");
+    }
+
     return 0;
 }
-:
 
