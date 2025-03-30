@@ -15,6 +15,9 @@ int main() {
 	    case 1:
             printf("You have selected CSE\n");
             break;
+	    case 2:
+            printf("You have selected AIML\n");
+            break;
 	    }
     return 0;
 }
