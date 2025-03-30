@@ -13,10 +13,10 @@ int main() {
 
     switch (choice) {
 	    case 1:
-            printf("Hello, World!\n");
+            printf("You have selected CSE\n");
             break;
 	    }
     return 0;
 }
-:
+
 
