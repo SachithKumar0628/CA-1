@@ -21,7 +21,12 @@ int main() {
 	    case 3:
             printf("You have selected ECE\n");
             break;
-	    }
+	    case 4:
+            printf("You have selected Mechanical\n");
+            break;
+        default:
+            printf("Invalid choice.\n");
+    }
     return 0;
 }
 
